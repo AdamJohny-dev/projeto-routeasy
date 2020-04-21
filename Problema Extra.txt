@@ -1,0 +1,5 @@
+PROBLEMA EXTRA
+
+Bom, eu utilizaria conceitos de algoritmo dinâmico, onde já seria pressuposto que a soma
+total que os caminhos podem obter (da origem C ao destino E) é de 15 unidades apenas.
+
