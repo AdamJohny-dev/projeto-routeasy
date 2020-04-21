@@ -1,0 +1,32 @@
+PROBLEMA 1 
+
+algoritmo "problema1"
+inicio
+	 //declaracao das variaveis
+	 //PI representa o valor de PI total
+	 //N representa o denominador das fracoes
+	 //I representa a variavel de decisao
+	 //AUX representa a divisao das fracoes, ou seja, a precisao
+	 PI, N, I, AUX: numerico
+
+	 //inicializacao das variaveis
+	 PI <- 4
+	 N <- 3
+	 I <- 0
+	 AUX <- 4/N
+
+	 //processsamento
+	 repita
+           se I == 0 entao
+		PI <- PI - AUX
+		  I <- 1
+	           senao
+		  PI <- PI + AUX
+		  I <- 0
+	           fimse
+	           N <- N + 2
+	 ate(AUX <= 0.0001)
+
+	 //saida
+	 escreva("O valor de PI é: " PI)
+fimalgoritmo
